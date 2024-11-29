@@ -1,0 +1,17 @@
+.second {
+  /* border: 2px solid red; */
+  padding: 10px;
+  height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-badge{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}

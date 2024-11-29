@@ -1,0 +1,127 @@
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 4rem 1rem; */
+  max-width: 800px;
+  margin: 1px auto;
+}
+
+.first-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border:0.5px solid blue;
+  border-radius: 30px;
+}
+
+.badge {
+  background-color: #F3F4F6;
+  color: #6366F1;
+  padding: 0.5rem 1rem;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  /* border: 1px solid blue; */
+}
+
+.badge-link {
+  color: #6366F1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  /* border: 2px solid blue; */
+}
+
+.first-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #271122;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.first-description {
+  font-size: 1.25rem;
+  color: #4B5563;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.first-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-demo, .btn-signup {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-demo {
+  background-color: white;
+  color: #111827;
+  border: 3px solid #E5E7EB;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-signup {
+  background-color: #6366F1;
+  color: white;
+  border: none;
+}
+
+.btn-demo:hover {
+  background-color: #F9FAFB;
+}
+
+.btn-signup:hover {
+  background-color: #4F46E5;
+}
+
+.first-logos{
+  width: 1250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  /* background-color: red; */
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 90px;  
+}
+
+.first-logos img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  /* background-color: blue; */
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  }
+  .colo
+  {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
